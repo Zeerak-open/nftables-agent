@@ -1,11 +1,10 @@
 package fiber
 
 import (
-	"nft-http-api/internal/transport/httpServer"
-	"nft-http-api/internal/transport/httpServer/fiber/handlers"
-
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
+	"github.com/logicalangel/Zeerak-nft-agent/internal/transport/httpServer"
+	"github.com/logicalangel/Zeerak-nft-agent/internal/transport/httpServer/fiber/handlers"
 )
 
 type FiberHttpServer struct {

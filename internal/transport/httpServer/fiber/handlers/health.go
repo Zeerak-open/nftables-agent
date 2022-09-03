@@ -1,9 +1,8 @@
 package handlers
 
 import (
-	"nft-http-api/internal/transport/httpServer/fiber/payloads"
-
 	"github.com/gofiber/fiber/v2"
+	"github.com/logicalangel/Zeerak-nft-agent/internal/transport/httpServer/fiber/payloads"
 )
 
 func (h *handlers) Health(c *fiber.Ctx) error {

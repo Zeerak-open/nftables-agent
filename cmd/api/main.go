@@ -2,10 +2,11 @@ package main
 
 import (
 	"log"
-	"nft-http-api/internal/transport/httpServer/fiber"
-	"nft-http-api/internal/transport/httpServer/fiber/handlers"
-	"nft-http-api/internal/transport/nft"
-	"nft-http-api/internal/utils"
+
+	"github.com/logicalangel/Zeerak-nft-agent/internal/transport/httpServer/fiber"
+	"github.com/logicalangel/Zeerak-nft-agent/internal/transport/httpServer/fiber/handlers"
+	"github.com/logicalangel/Zeerak-nft-agent/internal/transport/nft"
+	"github.com/logicalangel/Zeerak-nft-agent/internal/utils"
 )
 
 func main() {

@@ -2,10 +2,10 @@ package handlers
 
 import (
 	"fmt"
-	"nft-http-api/internal/transport/httpServer/fiber/payloads"
 	"strconv"
 
 	"github.com/gofiber/fiber/v2"
+	"github.com/logicalangel/Zeerak-nft-agent/internal/transport/httpServer/fiber/payloads"
 )
 
 func (h *handlers) FindRules(c *fiber.Ctx) error {

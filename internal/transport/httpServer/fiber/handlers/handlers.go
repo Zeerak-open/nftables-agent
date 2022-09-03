@@ -1,9 +1,8 @@
 package handlers
 
 import (
-	"nft-http-api/internal/transport/nft"
-
 	"github.com/gofiber/fiber/v2"
+	"github.com/logicalangel/Zeerak-nft-agent/internal/transport/nft"
 )
 
 type Handlers interface {

@@ -1,4 +1,4 @@
-module nft-http-api
+module github.com/logicalangel/Zeerak-nft-agent
 
 go 1.18
 

@@ -2,9 +2,9 @@ package handlers
 
 import (
 	"fmt"
-	"nft-http-api/internal/transport/httpServer/fiber/payloads"
 
 	"github.com/gofiber/fiber/v2"
+	"github.com/logicalangel/Zeerak-nft-agent/internal/transport/httpServer/fiber/payloads"
 )
 
 func (h *handlers) FindTables(c *fiber.Ctx) error {

@@ -5,8 +5,8 @@ import (
 	"github.com/thoas/go-funk"
 )
 
-func GetChains(table *nftables.Table) ([]*nftables.Chain, error) {
-	chains, err := conn.ListChains()
+func (ns *NftService) GetChains(table *nftables.Table) ([]*nftables.Chain, error) {
+	chains, err := ns.conn.ListChains()
 	if err != nil {
 		return nil, err
 	}
@@ -16,8 +16,8 @@ func GetChains(table *nftables.Table) ([]*nftables.Chain, error) {
 	}).([]*nftables.Chain), nil
 }
 
-func GetChain(table *nftables.Table, name string) (*nftables.Chain, error) {
-	chains, err := GetChains(table)
+func (ns *NftService) GetChain(table *nftables.Table, name string) (*nftables.Chain, error) {
+	chains, err := ns.GetChains(table)
 	if err != nil {
 		return nil, err
 	}
